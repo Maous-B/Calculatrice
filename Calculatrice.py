@@ -6,8 +6,7 @@ print(banner)
 while True:
     a = int(input("Entrez le premier nombre : "))
     b = int(input("Entrez le deuxième nombre : "))
-    c = input(
-        "Entrez l'opération que vous voulez effectuer (multiplication (m/M) | addition (a/A) | soustraction (s/S) | division (d/D)) : ")
+    c = input("Entrez l'opération que vous voulez effectuer (multiplication (m/M) | addition (a/A) | soustraction (s/S) | division (d/D)) : ")
 
     if c == "multiplication" or c == "m" or c == "M":
         resultat = a * b
