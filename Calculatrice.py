@@ -1,5 +1,6 @@
 #!usr/bin/env python3
 import os
+import time
 os.system("clear")
 banner = ("\n~ C a l c u l a t r i c e\n")
 print(banner)
@@ -31,4 +32,5 @@ while True:
         pass
     elif restart == "n" or restart == "N":
         print("Vous avez quitté la calculatrice")
+        time.sleep(3)
         break
