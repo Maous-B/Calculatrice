@@ -15,15 +15,15 @@ while True:
         print(resultat)
     if c == "addition" or c == "a" or c == "A":
         resultat = a + b
-        print("Le résultat de l'addition de ces deux nombres est")
+        print("Le résultat de l'addition de ces deux nombres est ")
         print(resultat)
     if c == "soustraction" or c == "s" or c == "S":
         resultat = a - b
-        print("Le résultat de la soustraction de ces deux nombres est")
+        print("Le résultat de la soustraction de ces deux nombres est ")
         print(resultat)
     if c == "division" or c == "d" or c == "D":
         resultat = a / b
-        print("Le résultat de la division de ces deux nombres est : ")
+        print("Le résultat de la division de ces deux nombres est ")
         print(resultat)
 
     restart = input("Voulez vous continuer? (Y/N) : ")
@@ -31,6 +31,6 @@ while True:
         print(banner)
         pass
     elif restart == "n" or restart == "N":
-        print("Vous avez quitté la calculatrice")
+        print("Vous avez quitté la calculatrice.")
         time.sleep(3)
         break
